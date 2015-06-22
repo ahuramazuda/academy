@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>input...!</title>
+</head>
+<body>
+	<h2>form태그를 통한 param 전달</h2>
+	<!--
+		markup Language 주석
+		submit이 되었을때, action 페이지로, form 태그 안에 설정된 값을 가지고
+		action으로 값들을 전달시켜주게 되어있는 태그
+	-->
+	<form action="target.it">
+		<input type = "text" name="t"></input>
+		<br/>
+		<input type = "password" name="p"/>
+		<br/>
+		<input type = "checkbox" name="c"/>
+		<br/>
+		select<select name="m">
+			<option>public</option>
+			<option>private</option>
+		</select>
+		textarea <textarea row="3" cols="40" name="o"></textarea>
+		<br/>
+		<input type="submit"/>
+	</form>
+</body>
+</html>
